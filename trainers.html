@@ -4,11 +4,16 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Luxe Fitness</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
 			rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css">
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<!-- Navbar section -->
@@ -18,15 +23,118 @@
 				<span class="bar"></span>
 				<span class="bar"></span>
 				<span class="bar"></span>
-      </div>
-      <div class="navbar_menu ">
-        <a href="/" class="navbar__link">Home</a>  
-        <a href="services.html" class="navbar__link">Services</a>  
-        <a href="plans.html" class="navbar__link">Plans</a>  
-        <a href="trainers.html" class="navbar__link">Trainers</a>  
-      </div>
+			</div>
+			<div class="navbar__menu">
+				<a href="/" class="navbar__link">Home</a>
+				<a href="services.html" class="navbar__link">Services</a>
+				<a href="plans.html" class="navbar__link">Plans</a>
+				<a href="trainers.html" class="navbar__link">Trainers</a>
+			</div>
 		</nav>
-		 <!-- Hero section -->
-		 <script src="app.js"></script>
+
+		<!-- Team Section -->
+		<div class="team">
+			<div class="team__wrapper">
+				<div class="team__text">
+					<p class="topline">Private Coaching</p>
+					<h1>Meet our Trainers</h1>
+					<p class="team__desc">
+						All our personal trainers have over 30 years of experience combined.
+						Each trainer specializes in strength and mobility workouts.
+					</p>
+				</div>
+				<div class="team__text">
+					<p class="topline">Free Trial</p>
+					<h1>7 Day Trial</h1>
+					<p class="team__desc">
+						Explore our trainers to make sure they are a good fit for your
+						goals.
+					</p>
+				</div>
+				<div class="team__card">
+					<p>Ali</p>
+					<img
+						src="./images/trainer1.jpg"
+						alt=" guy trainer"
+						class="team_img"
+					/>
+				</div>
+				<div class="team__card">
+					<p>Amanda</p>
+					<img
+						src="./images/trainer2.jpg"
+						alt=" guy trainer"
+						class="team_img"
+					/>
+				</div>
+				<div class="team__card">
+					<p>Trish</p>
+					<img
+						src="./images/trainer3.jpg"
+						alt=" guy trainer"
+						class="team_img"
+					/>
+				</div>
+				<div class="team__card">
+					<p>Stacey</p>
+					<img
+						src="./images/trainer4.jpg"
+						alt=" guy trainer"
+						class="team_img"
+					/>
+				</div>
+			</div>
+		</div>
+		<!-- Email Section -->
+		<div class="email">
+			<div class="email__content">
+				<h1>Get Access to Members Only Perks</h1>
+				<p>
+					Sign up for our newsletters to get $100 off your first personal
+					training session!
+				</p>
+				<form action="#">
+					<div class="form__wrap">
+						<label for="email">
+							<input type="email" placeholder="Enter your email" id="email" />
+						</label>
+						<button class="button" type="submit">Sign Up</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- Footer Section -->
+
+		<div class="footer">
+			<div class="footer__wrapper">
+				<div class="footer__desc">
+					<h1>LUXE FIT</h1>
+					<p>Luxury fitness gym located in downtown Chicago.</p>
+					<p id="phone">872-534-7575</p>
+				</div>
+
+				<div class="footer__links">
+					<h2 class="footer__title">Contact Us</h2>
+					<a href="/services.html" class="footer__link">Contact</a>
+					<a href="/services.html" class="footer__link">Support</a>
+					<a href="/services.html" class="footer__link">Sponsorships</a>
+				</div>
+			</div>
+			<div class="footer__wrapper">
+				<div class="footer__links">
+					<h2 class="footer__title">Memberships</h2>
+					<a class="footer__link" href="/">Pricing</a>
+					<a class="footer__link" href="/">Plans</a>
+					<a class="footer__link" href="/">FAQ</a>
+				</div>
+				<div class="footer__links">
+					<h2 class="footer__title">Social Media</h2>
+					<a class="footer__link" href="/">Instagram</a>
+					<a class="footer__link" href="/">Facebook</a>
+					<a class="footer__link" href="/">Twitter</a>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
 	</body>
 </html>

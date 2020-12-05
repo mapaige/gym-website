@@ -12,3 +12,25 @@ const mobileMenu =() => {
 }
 
 menu.addEventListener("click", mobileMenu)
+
+// Animation
+gsap.registerPlugIn(ScrollTrigger)
+
+gsap.from(".animate-hero", {
+  duration:0.6,
+  opacity: 0,
+  y:-150,
+  stagger:0.3
+});
+
+gsap.from(".animate-services", {
+  ScrollTrigger: animate-services,
+  duration:0.6,
+  opacity: 0,
+  y:-150,
+  stagger:0.3
+});
+
+
+
+
